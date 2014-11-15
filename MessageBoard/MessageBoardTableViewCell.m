@@ -12,6 +12,9 @@
 
 @synthesize messageTextView;
 
+//TODO: make the cell grow taller with more text
+//as of right now, the cells have a scrollable list instead of an expanding one. this sucks.
+
 - (void)awakeFromNib {
     // Initialization code
     
